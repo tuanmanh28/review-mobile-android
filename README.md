@@ -8,9 +8,10 @@ Android project for the mobile learning roadmap (Kotlin).
 app/src/main/java/io/github/tuanmanh28/learn/
 ├── MainActivity.kt          lesson list screen → tap a lesson → run each demo
 ├── core/Lessons.kt          LESSON REGISTRY (add 1 line for each new lesson)
-└── lesson01/                Lesson 1: demo/ + exercises/ + Lesson01.kt
-app/src/test/java/io/github/tuanmanh28/learn/lesson01/   grading tests + DemoTest
-solutions/lesson01/          solutions (not built)
+├── lesson01/                Lesson 1: demo/ + exercises/ + Lesson01.kt
+└── lesson02/                Lesson 2 (memory management): demo/ + exercises/ + Lesson02.kt
+app/src/test/java/io/github/tuanmanh28/learn/lessonNN/   grading tests + DemoTest
+solutions/lessonNN/          solutions (not built)
 ```
 
 ## First run
